@@ -1,88 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tomas Mc Phillips</title>
     <style>
-        html,body{
-            background-color: mintcream;
-            margin: 0px;
-        }
-        .navbar{
-            text-align: center;
-            border-bottom: 1px solid white;
-            overflow: hidden;
-            background-color: black;
-            width: 90%;
-            float: top;
-            margin: auto;
-            margin-bottom: 10px;
+      html,
+      body {
+        background-color: mintcream;
+        margin: 0px;
+      }
+      .navbar {
+        text-align: center;
+        border-bottom: 1px solid white;
+        overflow: hidden;
+        background-color: black;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      .navbar a {
+        text-shadow: 1px 1px black;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 1.2rem;
+        font-family: Consolas, serif;
+        display: inline-block;
+      }
+
+      .navbar a:hover {
+        background-color: mintcream;
+        color: #1e90ff;
+      }
+      .main {
+        background-color: black;
+        width: 100%;
+        min-height: 90vh;
+        margin: 0;
+        padding: 20px 0;
+        box-sizing: border-box;
+      }
+      #msg {
+        width: 90%;
+        margin: auto;
+        padding: 0 20px;
+      }
+      h1 {
+        font-family: Consolas, serif;
+        text-align: center;
+        font-size: 3rem;
+        color: white;
+        text-shadow: 2px 2px black;
+        margin-top: 20px;
+        margin-bottom: 2px;
+      }
+      p {
+        font-size: 1.2rem;
+        text-align: center;
+        color: white;
+        line-height: 1.6;
+      }
+
+      /* Media Queries */
+      @media screen and (min-width: 768px) {
+        .navbar {
+          width: 90%;
+          margin: auto;
+          margin-bottom: 10px;
         }
         .navbar a {
-            text-shadow: 1px 1px black;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            font-size: 2.5em;
-            font-family: Consolas,serif;
+          font-size: 2.5rem;
         }
-
-        .navbar a:hover {
-            background-color: mintcream;
-            color: #1E90FF;
+        .main {
+          width: 90%;
+          margin: auto;
         }
-        .main{
-            position: absolute;
-            right: 5%;
-            float: top;
-            margin: auto;
-            background-color: black;
-            width: 90%;
-            height: 90%;
-            border-radius: 1px;
-            box-shadow: 2px 2px gray;
+        h1 {
+          font-size: 7rem;
         }
-        #msg{
-            width: 80%;
-            margin: auto;
+        p {
+          font-size: 3rem;
         }
-        h1{
-            font-family: Consolas,serif;
-            text-align: center;
-            font-size: 7em;
-            color: white;
-            text-shadow: 2px 2px black;
-            margin-top: 35px;
-            margin-bottom: 2px;
-        }
-        p{
-            font-size: 3em;
-            text-align: center;
-            color: white;
-        }
+      }
     </style>
-</head>
-<body>
-
-        <div class="navbar">
-            <a href="Tomas.html">Home</a>
-            <a href="https://drive.google.com/file/d/1bjxZKssNG_4ayEdBls9pEtLI4dyEcjZz/view?usp=sharing">CV</a>
-            <a href="https://github.com/mosbyte/">Github</a>
-            <a href="https://www.linkedin.com/in/tomasmcp/">LinkedIn</a>
-            <a href="https://docs.google.com/presentation/d/1cFQP1LmdadgB7ZPIj4h_T8VXHY86Q7j5hQ-5whJdP5w/edit?usp=sharing">Project</a>
-            <a href="mailto:tomasmcphillips1@gmail.com">Contact</a>
-        </div>
-     <div class="main">
-        <h1>Tomás Mc Phillips</h1>
-         <div id="msg">
-             <p>
-                    Motivated student looking for graduate position in
-                    2019. Hope to gain valuable experience in an agile
-                    environment and to learn and adapt to new technologies.
-             </p>
-         </div>
-
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="Tomas.html">Home</a>
+      <a
+        href="https://drive.google.com/file/d/1bjxZKssNG_4ayEdBls9pEtLI4dyEcjZz/view?usp=sharing"
+        >CV</a
+      >
+      <a href="https://github.com/mosbyte/">Github</a>
+      <a href="https://www.linkedin.com/in/tomasmcp/">LinkedIn</a>
+      <a href="mailto:mossthedeveloper@gmail.com">Contact</a>
     </div>
-</body>
+    <div class="main">
+      <h1>Tomás Mc Phillips</h1>
+      <div id="msg">
+        <p>
+          A backend developer with a passion for building scalable and efficient
+          systems. Specialising in .NET and C# microservices. Currently working
+          as a software engineer at Rome2Rio.
+        </p>
+      </div>
+    </div>
+  </body>
 </html>
